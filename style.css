@@ -1,0 +1,24 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  cursor: pointer;
+  
+}
+
+.boxes {
+  width: 10rem;
+  height: 10rem;
+  background-color: grey;
+  margin-right: 3rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
